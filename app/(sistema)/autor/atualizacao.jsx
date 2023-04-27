@@ -8,6 +8,7 @@ import { MessageCallbackContext } from "../layout";
 import { AtualizarAutorContext } from "./cliente";
 
 export default function AutorAtualizacao(props) {
+    
 
     const [modalShow, setModalShow] = useState(true);
     const [busy, setBusy] = useState(false);
